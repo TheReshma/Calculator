@@ -1,7 +1,37 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+}
+
 button{
-    background-color: rgb(0, 0, 170);
-    border-radius: 4px ;
-    border-color: white ;
-    padding: 10px;
+    display: block;
+    text-align: center;
+    background-color: rgb(60, 207, 151);
+    border-radius: 20px ;
+    border: solid 1px white ;
+    margin: 1% 46%;
+    padding: 10px 15px;
     color: white ;
+}
+
+h1{
+    text-align: center;
+    background: rgb(72, 241, 176) ;
+    padding: 20px;
+}
+
+div{
+    margin: 0% 15%;
+    text-align: center;
+}
+
+.operation{
+    text-align: center;
+    padding: 20px ;
+}
+
+.input{
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 12px;
+    padding: 5px 10px;
 }

@@ -6,19 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Page</title>
     <link rel="stylesheet" href="/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 </head>
 <body>
     <h1>Calculator</h1>
-    <form action="/" method="post">
-        <input type="text" placeholder="Value1" name="n1">
-        <input type="n" placeholder="Value2" name="n2">
-        <button type="submit">Submit</button>
-    </form>
-
-    <ul>
-        <h2> hi</h2>
-        <li>hi</li>
-    </ul>
+    <div>
+        <form action="/" method="post">
+            <div class="operation">
+                <h2>Select Operation</h2>
+                <input type="radio" name="radio" id=""> Addition
+                <input type="radio" name="radio" id=""> Subtraction
+                <input type="radio" name="radio" id=""> Multiplication
+                <input type="radio" name="radio" id=""> Divide 
+            </div>
+            <input class="input" type="text" placeholder="Value1" name="n1">
+            <input class="input" type="text" placeholder="Value2" name="n2">
+            <button type="submit">Submit</button>
+        </form>
+    </div>
     
 </body>
 </html>
